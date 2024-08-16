@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Dashbord</title>
+    <!-- css link -->
+    <link rel="stylesheet" href="./Assets/Styles/style.css">
+
+    <!-- bootstrap link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body>
+    <!-- navbar section started -->
+    <section class="navbar-box">
+        <div class="container navbar-box d-flex justify-content-between align-items-center text-light">
+            <h4>Personal Blogging App</h4>
+            <div class="d-flex align-items-center gap-2">
+                <p class="text-light mt-3">Haseeb Ur Rehman</p>
+                <button id="logout_btn" class="text-light btn btn-danger">Logout</button>
+            </div>
+        </div>
+    </section>
+    <!-- navbar section ended -->
+
+    <section class="bg-white p-3">
+        <div class=" container">
+            <h1>Dashboard</h1>
+        </div>
+    </section>
+
+    <!-- section dashbord started -->
+    <section>
+        <div class="container dashbord_box">
+            <form id="form" class="d-flex flex-column gap-3">
+                <input id="title" type="text" placeholder="Enter your title">
+                <input id="article" type="text" placeholder="Enter your blog">
+                <button class="btn btn-primary">Publish</button>
+            </form>
+        </div>
+    </section>
+    <!-- section dashbord ended -->
+
+    <!-- section my blog started -->
+    <section class="container mt-5">
+        <div>
+            <h3>My blog</h3>
+        </div>
+    </section>
+    <!-- section my blog ended -->
+
+    <!-- aritlce section started -->
+     <section class="container mt-3">
+        <div id="article_section" class="d-flex flex-column gap-3">
+            
+        </div>
+     </section>
+    <!-- aritlce section ended -->
+
+    <!-- javascript link -->
+    <script type="module" src="./scripts/dashbord.js"></script>
+
+    <!-- bootstrap link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

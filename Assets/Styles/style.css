@@ -1,0 +1,40 @@
+.navbar-box {
+    width: 100%auto;
+    height: 50px;
+    background-color: #7749F8;
+}
+
+.signUp-Box {
+    width: 500px;
+    padding: 30px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#form input {
+    height: 46px;
+    border-radius: 5px;
+    border: 1px solid rgb(234, 234, 234);
+    outline: none;
+    padding: 10px;
+}
+
+#box-area {
+    width: 100%;
+    height: 100px;
+}
+
+#title {
+    width: 100%;
+    height: 46px;
+}
+
+.dashbord_box form input {
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
+    padding: 10px;
+    border: none;
+    outline: none;
+}
